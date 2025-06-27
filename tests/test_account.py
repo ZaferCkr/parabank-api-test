@@ -7,7 +7,7 @@ def test_get_account_balance():
     account_id = 12345
     response = requests.get(f"{BASE_URL}/accounts/{account_id}")
     assert response.status_code == 200
-    # JSON değil XML geldiği için JSON yüklemeye çalışma
+    
     assert "<account>" in response.text
     assert "<balance>" in response.text
 
