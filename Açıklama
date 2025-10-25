@@ -1,0 +1,13 @@
+API Test Automation Project – OpenLibrary (C# / .NET / NUnit / RestSharp)
+
+Açıklama: OpenLibrary API’sine bağlanan otomatik testler geliştirdim ve çalıştırdım. 
+
+HTTP status kodu ve JSON veri doğrulaması yaparak API’nin doğru çalıştığını doğruladım.
+
+Gelen kitap verilerini parse ederek test çıktısını kontrol ettim ve ilk kitap başlığını konsola yazdırdım.
+
+NUnit ve RestSharp kullanarak tekrar çalıştırılabilir, modüler testler oluşturdum. 
+
+Testlerin sonuçlarını Visual Studio Test Explorer ve Output penceresinde gözlemledim. 
+
+Test çıktısını bir .txt dosyası olarak kaydederek ileride referans veya raporlama amacıyla kullanabilme imkanı sağladım.
